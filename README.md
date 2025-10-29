@@ -54,13 +54,6 @@ VITE_API_URL=http://localhost:4000/api/v1
 cd server
 python supabase.py
 ```
-- Local dev fallback (SQLite):
-```
-# set in repo-root .env
-DATABASE_URL="sqlite:///./dev.db"
-cd server
-python -m app.scripts.init_db
-```
 
 5) Run backend
 ```
